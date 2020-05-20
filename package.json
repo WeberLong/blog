@@ -1,0 +1,15 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "my blog",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "sh build.sh"
+  },
+  "author": "WeberLong",
+  "homepage": "https://weberlong.github.io/blog/",
+  "devDependencies": {
+    "vuepress": "^1.5.0"
+  }
+}

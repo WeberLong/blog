@@ -29,7 +29,7 @@
     ```
 
 ## 父子通信
-<img :src="$withBase('/assets/component.png')">
+<img :src="$withBase('/component.png')">
 
 ``` html
 <template>
@@ -131,7 +131,7 @@ export default {
 
 ## 生命周期
   每个 Vue 实例包含Component在被创建时都要经过一系列的初始化过程。例如，需要设置数据监听、编译模板、将实例挂载到DOM并在数据变化时更新DOM等。同时在这个过程中也会运行一些生命周期钩子的函数，我们可以在不同阶段添加自己的代码。
-  <img :src="$withBase('/assets/lifecycle.png')">
+  <img :src="$withBase('/lifecycle.png')">
 
   在组建中使用生性周期钩子函数时，如果组件使用了`keep-alive`指令，部分钩子函数在组建激活后就不会执行，同时会增加组件激活时`activated()`和组件停用后`deactivated()`这两个函数。
 

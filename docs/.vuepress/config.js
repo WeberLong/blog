@@ -15,7 +15,11 @@ module.exports = {
       },
       {
         text: 'long-ui',
-        link: '/long-ui/'
+        items: [
+          { text: 'UI简介', link: '/long-ui/' },
+          { text: '预览', link: 'http://www.weberlong.com/' },
+          { text: '源码', link: 'https://github.com/WeberLong/long-ui' }
+        ]
       },
       {
         text: 'archives',

@@ -35,7 +35,15 @@ module.exports = {
         { title: 'Component', collapsable: false }
       ],
       '/archives/': [
-        { title: 'Webpack', collapsable: false }
+        // { title: 'Webpack', collapsable: false }
+        {
+          title: '我的文章',
+          collapsable: false,
+          children: [
+            'webpack',
+            'rtlcss',
+          ]
+        }
       ],
       '/long-ui/': [
         {

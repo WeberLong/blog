@@ -40,6 +40,7 @@ module.exports = {
           title: '我的文章',
           collapsable: false,
           children: [
+            'component',
             'webpack',
             'rtlcss',
           ]

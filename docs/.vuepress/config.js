@@ -11,7 +11,7 @@ module.exports = {
     nav: [
       {
         text: 'home',
-        link: '/home/'
+        link: '/'
       },
       {
         text: 'long-ui',
